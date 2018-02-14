@@ -1,0 +1,76 @@
+h1 {
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+  font-size: 60pt;
+  text-align: center;
+  float;
+}
+
+.heartrate1 {
+  float: left;
+  margin-left: 100px;
+}
+
+.heartrate2 {
+  float: right;
+  margin-right: 100px;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+}
+
+.menu button{
+  padding: 48px 36px;
+  font-size: 24pt;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  float: left;
+  background-color: #e7e7e7; color: "black";
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  -webkit-transition-duration: 0.4s; /* Safari */ 
+  transition-duration: 0.4s;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+a{
+  font-size: 24pt;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+img {
+  margin-top: 10px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+
+.menu button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.menu button:active {
+  color: black;
+}
